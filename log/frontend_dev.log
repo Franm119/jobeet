@@ -1,0 +1,16 @@
+Aug 31 18:34:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Aug 31 18:34:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 31 18:34:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 31 18:34:59 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Aug 31 18:35:08 symfony [info] {sfPHPView} Render "C:\Users\Fsco\Documents\GitHub\jobeet\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Aug 31 18:35:08 symfony [info] {sfPHPView} Decorate content with "C:\Users\Fsco\Documents\GitHub\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Aug 31 18:35:08 symfony [info] {sfPHPView} Render "C:\Users\Fsco\Documents\GitHub\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Aug 31 18:35:08 symfony [warning] {sfWebDebugLogger}  Warning at C:\Users\Fsco\Documents\GitHub\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\Users\Fsco\Documents\GitHub\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Aug 31 18:35:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 31 18:35:11 symfony [warning] {sfWebDebugLogger}  Warning at C:\Users\Fsco\Documents\GitHub\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\Users\Fsco\Documents\GitHub\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Aug 31 18:35:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 31 18:35:12 symfony [info] {sfWebDebugLogger} Configuration 5869.71 ms (9)
+Aug 31 18:35:12 symfony [info] {sfWebDebugLogger} Factories 4214.25 ms (1)
+Aug 31 18:35:12 symfony [info] {sfWebDebugLogger} Action "default/index" 1.32 ms (1)
+Aug 31 18:35:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 9101.81 ms (1)
+Aug 31 18:35:14 symfony [info] {sfWebResponse} Send content (30187 o)
